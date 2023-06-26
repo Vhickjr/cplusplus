@@ -3,7 +3,7 @@
 #include<string>
 #include<cstdlib>
 #include<time.h>
-
+#include "secondfile.h"
 using  namespace std;
 
 
@@ -14,7 +14,8 @@ int main()
 	char restart = 'y';
 	while(restart == 'y'|| restart == 'Y')
 	{    
-		
+		frequentpractice();
+		cout<<endl;
 		 
 	cout<<"Do you want to continue y/n ?";cin>>restart;
 	}
@@ -42,7 +43,7 @@ int main()
 
 	/*
 	
-WHILE LOOP THAT HAS FACTORIAL AND ASK USE FORN PERMISSION TO CONTINUE
+WHILE LOOP THAT HAS FACTORIAL AND ASK USE FOR PERMISSION TO CONTINUE
 	
 	string ans = "y";
 	while(ans =="y"|| ans == "Y")
